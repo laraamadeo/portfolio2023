@@ -1,8 +1,11 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  margin: 0 32px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+
   text-align: center;
+  min-height: 100vh;
 }
 
 .logo {
@@ -38,4 +41,15 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.main-content::-webkit-scrollbar {
+  display: none;
+}
+
+.main-content {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
