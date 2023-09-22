@@ -46,12 +46,12 @@ export default function Skills() {
     ]
     return <>
         <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
-            <p className="text-start mb-8">SKILLS</p>
-            <div className="flex gap-8 justify-between">
+            <p className="text-start mb-8 tracking-widest font-bold">SKILLS</p>
+            <div className="flex gap-8 justify-between flex-wrap">
                 {skillz.map(list => {
                     return <>
                         <div className="flex flex-col justify-start items-start gap-2">
-                            <p className="text-base uppercase font-bold">{list.title}</p>
+                            <p className="text-base uppercase font-medium">{list.title}</p>
                             <ul className="flex flex-col gap-1 items-start">
                                 {list.items.map((item, key) => <li key={key} className="text-start text-sm">{item}</li>
                                 )}
