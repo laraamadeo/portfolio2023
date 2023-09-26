@@ -1,41 +1,25 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  margin: 0 32px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+
   text-align: center;
-}
-
-.logo {
-  height: 2em;
-  aspect-ratio: 1/1;
-  padding: 1em;
+  min-height: 100vh;
 
 }
 
-@media (max-width: 450px) {
-  .title {
-    font-size: 1em;
-  }
-
-  .logo {
-    height: 1em;
-    padding: 0.5em;
-  }
-
+.main-content::-webkit-scrollbar {
+  display: none;
 }
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.main-content {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-.card {
-  padding: 1em;
-}
-
-.read-the-docs {
-  color: #888;
+.icons-width {
+  stroke-width: 0.15em;
 }
