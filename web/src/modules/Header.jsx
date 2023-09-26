@@ -3,11 +3,12 @@ export default function Header() {
     return <>
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[40%] lg:flex-col lg:justify-between lg:py-24 md:flex md:flex-col md:gap-8 md:justify-between sm:items-start sm:justify-start flex flex-col gap-8 items-center">
             <div className="flex flex-col">
-                <p className="text-2xl sm:text-4xl sm:text-left mb-4 font-extrabold dark:text-[#ae818c]">Lara Amadeo Tarantino</p>
-                <p className="text-m sm:text-xl sm:text-left sm:pr-9 dark:text-[#ae818c]">{`Front-end developer focused on building design-centered interfaces`}</p>
+                <p className="text-2xl sm:text-4xl sm:text-left mb-4 font-extrabold header-text-color">Lara Amadeo Tarantino</p>
+                <p className="text-m sm:text-xl sm:text-left sm:pr-9 body-text-color">{`Front-end developer focused on building design-centered interfaces`}</p>
 
-                <div className="flex gap-3 mt-8">
-                    <p className="text-lg leading-6 ">👉</p>
+                <div className="flex gap13 mt-8 flex-col sm:flex-row sm:gap-3">
+                    <p className="text-lg leading-6 hidden">👉</p>
+                    <p className="text-lg leading-6 sm:hidden">👇</p>
                     <a className="dark:text-[#98dfa2] underline font-medium">amadeotarantino@gmail.com</a>
                 </div>
             </div>

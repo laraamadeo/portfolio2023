@@ -46,7 +46,7 @@ export default function Skills() {
     ]
     return <>
         <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
-            <p className="text-start mb-8 tracking-widest font-bold">SKILLS</p>
+            <p className="text-start mb-8 tracking-widest font-bold header-text-color">SKILLS</p>
             <div className="flex gap-8 justify-between flex-wrap">
                 {skillz.map(list => {
                     return <>

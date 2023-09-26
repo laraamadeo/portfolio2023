@@ -26,7 +26,7 @@ export default function Projects() {
 
     return <>
         <section className="mb-16 md:mb-24 lg:mb-36">
-            <p className="text-start mb-8">RELEVANT PROJECTS</p>
+            <p className="text-start mb-8 font-bold header-text-color">RELEVANT PROJECTS</p>
             {projects.map((prj, key) => <ProjectItem key={key} thumb={prj.thumb} title={prj.title} description={prj.description} tags={prj.tags} href={prj.href} />)}
         </section>
     </>
