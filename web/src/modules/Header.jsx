@@ -11,20 +11,6 @@ export default function Header() {
                     <p className="text-lg leading-6 sm:hidden">👇</p>
                     <a className="dark:text-[#98dfa2] underline font-medium">amadeotarantino@gmail.com</a>
                 </div>
-
-                <ul className="hidden sm:gap-3 sm:mt-8 sm:flex-col sm:flex sm:items-start ">
-                    <li>
-                        <a >about</a>
-                    </li>
-
-                    <li className="text-lg body-text-color">
-
-                    </li>
-
-                    <li className="text-lg body-text-color">
-
-                    </li>
-                </ul>
             </div>
 
             <div className="flex gap-2">

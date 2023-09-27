@@ -6,7 +6,7 @@ import Skills from './Skills'
 export default function Main({ onscroll }) {
 
     return <>
-        <main className="pt-24 lg:w-[60%] lg:py-24 box-borders h-screen main-content lg:overflow-scroll" onScroll={onscroll}>
+        <main className="pt-24 lg:w-[60%] lg:py-24 box-borders  main-content lg:overflow-scroll" onScroll={onscroll}>
             <About />
             <Skills />
             <Experience />
