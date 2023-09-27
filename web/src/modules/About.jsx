@@ -1,9 +1,12 @@
+
+import { useRef } from "react";
 import { ArrowDownTrayIcon } from "../icons";
 
 export default function About() {
+    const myRef = useRef(null)
 
     return <>
-        <section className="mb-16 md:mb-24 lg:mb-36 flex flex-col items-start" >
+        <section className="mb-16 md:mb-24 lg:mb-36 flex flex-col items-start" id='about' ref={myRef}>
             <p className="text-start mb-8 tracking-widest font-bold header-text-color ">BACKGROUND</p>
 
             <p className="text-start mb-2 body-text-color">{`I started my journey as a digital product designer, rubro/ambito that I very much enjoy. I've worked as a designer for one and a half year in TOQIO. Quickly, I started to get very interested in programming. I loved the process of building software not only ideating it.`}</p>
