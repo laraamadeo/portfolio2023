@@ -24,7 +24,7 @@ export default function Experience() {
     ]
 
     return <>
-        <section className="mb-16 md:mb-24 lg:mb-36">
+        <section className="mb-16 md:mb-24 lg:mb-36" id="experience">
             <p className="text-start mb-8 tracking-widest font-bold header-text-color">EXPERIENCE</p>
             {exp.map((item, key) => <ExperienceItem key={key} title={item.title} description={item.description} date={item.date} tags={item.tags} />)}
         </section>

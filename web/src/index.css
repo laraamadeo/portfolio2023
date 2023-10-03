@@ -90,24 +90,23 @@ button:focus-visible {
 }
 
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    background-color: #1F1F1F;
-  }
+/* @media (prefers-color-scheme: dark) { }*/
+:root {
+  background-color: #1F1F1F;
+}
 
-  .body-text-color {
-    color: #c6c6c6
-  }
+.body-text-color {
+  color: #c6c6c6
+}
 
-  .title-text-color {
-    color: #dddddd
-  }
+.title-text-color {
+  color: #dddddd
+}
 
-  .header-text-color {
-    color: #c8edcd;
-  }
+.header-text-color {
+  color: #c8edcd;
+}
 
-  .link-color {
-    color: #98dfa2;
-  }
+.link-color {
+  color: #98dfa2;
 }
