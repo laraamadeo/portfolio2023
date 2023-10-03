@@ -51,9 +51,9 @@ export default function Skills() {
                 {skillz.map(list => {
                     return <>
                         <div className="flex flex-col justify-start items-start gap-2">
-                            <p className="text-base uppercase font-medium">{list.title}</p>
+                            <p className="text-base uppercase font-medium title-text-color">{list.title}</p>
                             <ul className="flex flex-col gap-1 items-start">
-                                {list.items.map((item, key) => <li key={key} className="text-start text-sm">{item}</li>
+                                {list.items.map((item, key) => <li key={key} className="text-start text-sm body-text-color">{item}</li>
                                 )}
                             </ul>
                         </div>
