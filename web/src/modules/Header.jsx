@@ -9,7 +9,7 @@ export default function Header() {
                 <div className="flex gap-3 mt-8 flex-col sm:flex-row sm:gap-3">
                     <p className="text-lg leading-6 hidden sm:block">👉</p>
                     <p className="text-lg leading-6 sm:hidden">👇</p>
-                    <a className="dark:text-[#98dfa2] underline font-medium">amadeotarantino@gmail.com</a>
+                    <a className="text-[#98dfa2] underline font-medium">amadeotarantino@gmail.com</a>
                 </div>
             </div>
 

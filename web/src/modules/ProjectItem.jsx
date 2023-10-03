@@ -15,7 +15,7 @@ export default function ProjectItem({ thumb, title, description, tags, href }) {
 
             </div>
         </a>
-        <div className="w-full h-[1px] bg-gray-200 dark:bg-[#808080] mb-8 sm:hidden"></div>
+        <div className="w-full h-[1px] bg-[#808080] mb-8 sm:hidden"></div>
 
     </>
 }
