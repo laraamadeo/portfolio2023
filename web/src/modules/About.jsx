@@ -9,11 +9,15 @@ export default function About() {
         <section className="mb-16 md:mb-24 lg:mb-36 flex flex-col items-start" id='about' ref={myRef}>
             <p className="text-start mb-8 tracking-widest font-bold header-text-color ">BACKGROUND</p>
 
-            <p className="text-start mb-2 body-text-color">{`I started my journey as a digital product designer, field that I very much enjoy. I've worked as a designer for one and a half year in TOQIO. Quickly, I started to get very interested in programming. I loved the process of building software not only ideating it.`}</p>
+            <p className="text-start mb-2 body-text-color">{`I'm a frontend developer with strong background in design. I started studying programming, frontend development specifically, and found out that in coding is where I found myself fullfilled.`}</p>
 
-            <p className="text-start mb-2 body-text-color">{`I started studying programming, frontend development specifically and found out that in coding is where I found myself fullfilled.`}</p>
+            <p className="text-start mb-2 body-text-color">{`I love building design systems and high-quality softwares.`}</p>
 
-            <p className="text-start mb-2 body-text-color">{`Today, you can find me working at TOQIO, migrating from design to frontend team. `}</p>
+            <p className="text-start mb-2 body-text-color">
+                Today, you can find me working at
+                <a className="cursor-pointer font-bold link-color text-[#98dfa2]" href="https://toqio.co/es/" target="_blank" rel="noreferrer"> TOQIO </a>
+                as a frontend developer, where we have built a fully customizable design system and web and app platforms for banking SaaS.
+            </p>
 
             <p className="text-start mb-8 body-text-color">{`When I'm not in front of a computer screen, I'm probably doing ceramics or walking my dog.`}</p>
 
