@@ -17,7 +17,7 @@ export default function Experience() {
         },
         {
             title: 'UI Designer - TOQIO',
-            description: 'I am part of the product team where we’ve build a fully customizable design system and carried out a full platform redesign.',
+            description: 'Took part in the product team where we’ve build a fully customizable design system and carried out a full platform redesign.',
             date: 'SEP 2021 - FEB 2024',
             tags: ['Figma', 'Miro', 'Adobe', 'Agile']
         },

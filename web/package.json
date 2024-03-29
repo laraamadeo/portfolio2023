@@ -4,19 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
-    "flowbite-react": "^0.7.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
-    "react-scroll": "^1.8.9",
-    "react-slick": "^0.30.2"
+    "react-scroll": "^1.8.9"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

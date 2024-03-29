@@ -11,13 +11,11 @@ export default function About() {
 
             <p className="text-start mb-2 body-text-color">{`I'm a product designer focused on UI design. Enthusiastic about interfaces and product functionality. I love building design systems and high-quality softwares.`}</p>
 
-            <p className="text-start mb-2 body-text-color">{`I love building design systems and high-quality softwares.`}</p>
-
 
             <p className="text-start mb-2 body-text-color">
-                Today, you can find teaching design at
+                Today, you can find me teaching design at
                 <a className="cursor-pointer font-bold link-color" href="https://isdicoders.com/" target="_blank" rel="noreferrer"> ISDI Coders </a>
-                to developers. I love to bring the design concept to people that have a very programmatic way of thinking.
+                to developers where I try to bring the design concepts to people that have a very programmatic way of thinking.
             </p>
 
             <p className="text-start mb-8 body-text-color">{`When I'm not in front of a computer screen, I'm probably doing ceramics or walking my dog.`}</p>
