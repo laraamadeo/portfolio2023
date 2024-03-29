@@ -6,7 +6,7 @@
 
   text-align: center;
   min-height: 100vh;
-
+  height: 100%;
 }
 
 .main-content::-webkit-scrollbar {

@@ -1,30 +1,18 @@
 export default function Skills() {
     const skillz = [
         {
-            title: 'Languages',
+            title: 'Tools',
             items: [
-                "JavaScript (ES6)",
-                "TypeScript",
-                "HTML",
+                "Figma",
+                "Miro",
+                "Sketch",
                 "CSS/Sass"
             ]
         },
         {
-            title: 'Frameworks',
+            title: 'Methodologies',
             items: [
-                "React",
-                "React Native",
-                "Next.js",
-                "Node.js",
-                "Tailwind CSS",
-                "Bootstrap",
-                "Wordpress"
-            ]
-        },
-        {
-            title: 'Libraries',
-            items: [
-                "Redux",
+                "Zeroheight",
                 "MobX",
                 "React Router",
                 "AXIOS",
@@ -33,16 +21,23 @@ export default function Skills() {
             ]
         },
         {
-            title: 'Tools',
+            title: 'Other',
             items: [
-                "Bash",
-                "Git & Github",
-                "Chrome DevTools",
-                "Postman",
-                "MongoDB",
-                "Figma"
+                "Slack",
+                "Jira",
+                "Agile"
             ]
-        }
+        },
+        {
+            title: 'Frameworks',
+            items: [
+                "React",
+                "React Native",
+                "Next.js",
+                "Tailwind CSS",
+                "Wordpress"
+            ]
+        },
     ]
     return <>
         <section className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">

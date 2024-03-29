@@ -4,22 +4,28 @@ export default function Experience() {
 
     const exp = [
         {
-            title: 'Web Designer - V3rtice Agency',
+            title: 'Web Designer Intern- V3rtice Agency',
             description: 'Manage all graphic assets for web and social media display. Taking into account web specifications that in the future gave me media specifications and guidelines for managing web media files.',
             date: 'SEP 2020 - MAR 2021',
-            tags: ['HTML', 'CSS', 'Wordpress']
+            tags: ['HTML', 'CSS', 'Wordpress', 'Sketch']
         },
         {
-            title: 'Freelance developer',
-            description: 'Built two projects. A React SPA project and a React - Typescript PWA project. More information in Projects',
-            date: 'FEB 2023 - TODAY',
-            tags: ['React', 'Typescript', 'PWA']
+            title: 'Freelance designer & developer',
+            description: `Built several projects based on client's requirements`,
+            date: 'SEP 2020 - TODAY',
+            tags: ['Figma', 'Sketch', 'React', 'React Native']
         },
         {
-            title: 'UI Developer - TOQIO',
-            description: 'I am part of the product team where we’ve build a fully customizable design system. Also helped out frontend team with design system frontend tasks.',
-            date: 'SEP 2021 - TODAY',
-            tags: ['React', 'Typescript', 'React Native', 'Tailwind', 'Figma', 'Storybook']
+            title: 'UI Designer - TOQIO',
+            description: 'I am part of the product team where we’ve build a fully customizable design system and carried out a full platform redesign.',
+            date: 'SEP 2021 - FEB 2024',
+            tags: ['Figma', 'Miro', 'Adobe', 'Agile']
+        },
+        {
+            title: 'UX/UI Teacher - ISDI Coders',
+            description: `I teach design concepts and Figma focused on developer's needs`,
+            date: 'JAN 2023 - TODAY',
+            tags: ['Figma', 'Miro', 'VSC', 'Methodology']
         }
     ]
 
