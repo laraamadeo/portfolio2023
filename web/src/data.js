@@ -18,7 +18,7 @@ export const projectDetailsData = [
     {
         title: "Toqio's design principles",
         subtitle: "UI designer - Toqio",
-        description: "As part of the design team, we had the mission of building a set of design principles. We carried out different design processes fosting collaboration and team alignment. Once our product principles were defined, we tried to implement them in the whole company's philosophy.",
+        description: "As part of the design team, we had the mission of building a set of design principles. We carried out different design processes fosting collaboration and team alignment. Once our product principles were defined, we implemented them in the whole company's philosophy.",
         img: ["/design-principles.png"],
         link: "https://www.behance.net/gallery/175593353/Toqios-Design-Principles",
         linkLabel: "Visit behance"
